@@ -74,8 +74,8 @@
 
 .search_domain {
     line-height: 25px;
-    padding-right: 18px;
-    flex: 1;
+    padding-right: 5px;
+    flex: 3;
 }
 
 .mini-text {
@@ -92,13 +92,13 @@
 #inlineFormInputName1 {
     min-height: 60px;
     /* min-width: 420px; */
-    flex: 3;
+    flex: 8;
 }
 
 #yearSelect, #dopSelect {
     min-height: 60px;
     /* min-width: 160px; */
-    flex: 1;
+    flex: 3;
 }
 
 .btn-orange {
@@ -110,5 +110,59 @@
     text-transform: uppercase;
     color: white;
     font-weight: bold;
-    flex: 1.5;
+    flex: 4;
+}
+
+
+.line {
+    width: 20px;
+    height: 1px;
+    background-color: #ff8261;
+    background-repeat: no-repeat;
+}
+
+.screen_h {
+    line-height: 25px;
+}
+
+.benefit {
+    min-height: 125px;
+    max-height: 300px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.benefit_icon {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.my_text {
+    padding-left: 105px;
+    font-size: 13.5px;
+}
+
+.screen4 {
+    background-color: #fffbde;
+}
+
+.button > .btn-orange {
+    background-color: #ff8261;
+    border: none;
+    border-radius: 5px;
+    min-height: 60px;
+    /* min-width: 180px; */
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
 }

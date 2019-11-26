@@ -166,3 +166,37 @@
     color: white;
     font-weight: bold;
 }
+
+.figure {
+    min-height: 120px;
+    border: none;
+    position: relative;
+}
+
+.figure_2 {
+    border: 1px solid #fffbde;
+    position: absolute;
+    line-height: normal;
+}
+
+.gigant_red {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ff8261;
+}
+
+.gigant_blue {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #52cbf8;
+}
+
+.points {
+    line-height: 36px;
+}
+
+.view {
+    align-self: flex-end;
+}
